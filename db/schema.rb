@@ -46,3 +46,26 @@ ActiveRecord::Schema.define(version: 2018_10_21_071924) do
   end
 
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

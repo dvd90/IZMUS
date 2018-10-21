@@ -4,7 +4,7 @@ class FormsController < ApplicationController
   end
 
   def show
-
+    @form = Form.find(params[:id])
   end
 
   def new
@@ -14,7 +14,7 @@ class FormsController < ApplicationController
   def create
     @form = Form.new(form_params)
     if @form.save
-      redirect_to root
+      redirect_to form_path(@form)
     else
       render :new
     end
