@@ -1,5 +1,6 @@
 class FormsController < ApplicationController
   def index
+    @form = Form.all
   end
 
   def show
